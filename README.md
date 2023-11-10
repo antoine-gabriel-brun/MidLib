@@ -24,8 +24,8 @@ The main purpose of the MidLib library is to make creating MIDI files **as easy 
 
 * MidLib can only **write** MIDI files. It is not designed to *open* existing MIDI files, *play* MIDI samples as audio, or handle real-time MIDI streams.
 * The only available output MIDI file format is **format 1** (multitrack MIDI file).
-* The only time mode is **beat-based**; SMPTE times are not supported.
-* Some MIDI events of lesser interest such as cue points, lyrics, etc. are not natively supported. Using them may require **extending** the library by deriving the base event class.
+* The only time mode is **beat-based**. SMPTE time is not supported.
+* Some MIDI events of lesser interest such as cue points, lyrics, etc. are not natively supported. Using them requires **extending** the library by deriving the base event class.
 
 ## How do I get started?
 
@@ -45,7 +45,9 @@ The main purpose of the MidLib library is to make creating MIDI files **as easy 
 		    sample.save("sample.mid");
 		}
 		
-Now, run and read the files in the folder `Mid/tutorials` to learn all the other features.
+This is how you generate a MIDI file using MidLib.
+
+Now, run and read the files in the `Mid/tutorials` folder to discover the other features available.
 
 ## Who wrote MidLib and how?
 

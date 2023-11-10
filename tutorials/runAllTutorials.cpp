@@ -8,7 +8,6 @@
 #include <iostream>
 
 #include "tutorial1.hpp" // this directive #includes all tutorials
-#include "PROV_sandbox.hpp" // PROV DEL, and delete file
 
 namespace
 {
@@ -46,5 +45,4 @@ void runAllTutorials()
     runTutorial(tutorial9, 9);
     runTutorial(tutorial10, 10);
     runTutorial(tutorial11, 11);
-    runTutorial(sandbox, 1000); // PROV DEL
 }

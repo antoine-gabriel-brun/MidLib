@@ -1,14 +1,21 @@
 # MidLib
 
-*C++ library for easy MIDI sample manipulation.*
+**C++ library for easy MIDI sample manipulation**
 
-MidLib allows users to handle MIDI samples inside C++ programs, and to save them as .mid files. The library supports notes, multi-tracks samples, channels, pitch bends, control and program changes, aftertouch, tempo, time signature, custom events, as well as many tool for manipulating and transforming musical samples.
+MidLib allows users to handle MIDI samples inside C++ programs, and to save them as `.mid` files. The library supports notes, multi-tracks samples, channels, pitch bends, control and program changes, aftertouch, tempo, time signature, custom events, as well as many tool for manipulating and transforming musical samples.
 
 ## What is MidLib?
 
 MidLib is a C++ library. Once included into a C++ project, users can create objects that store musical informations that can be exported to MIDI samples.
 
-MidLib is both designed for simplicity and flexibility. For basic use (creating a sample - adding notes - saving as .mid file), it is very simple and straightforward. The underlying complexity - chunks, events, bytewise file writing - and the MIDI files specifications remains always hidden. However, advanced users can use it to create complex MIDI files that include most of the features offered by the MIDI standard.
+MidLib is both designed for simplicity and flexibility. For basic use (creating a sample - adding notes - saving as `.mid` file), it is very simple and straightforward. The underlying complexity - chunks, events, bytewise file writing - and the MIDI files specifications remains always hidden. However, advanced users can use it to create complex MIDI files that include most of the features offered by the MIDI standard.
+
+The main library purpose is to make it as easy as possible for the user to create MIDI files. To this aim, all things that make the MIDI specifications tricky have been covered by a simple syntax that hides all this misery. For instance:
+
+* You don't need to add notes and events chronologically: MidLib is sorting events for you when exporting your created samples to MIDI files.
+* Notes are added in a single step: MidLib handles NoteOn and NoteOff events for you, and controls what happens if some notes overlap.
+* Most magic numbers are hidden and replaced by user-friendly names. You never need to know a controller index or an instrument number, and can freely play with Pan, Accordion or ChannelVolume.
+* The tricky things like variable-length integers, chunks, running status, 14-bits integers etc. are completely hidden and handled without any action on your part.
 
 ## What features does the MidLib library *not* support?
 

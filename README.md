@@ -17,7 +17,7 @@ The main purpose of the MidLib library is to make creating MIDI files **as easy 
 
 * Notes are added **in one step**: MidLib handles NoteOn and NoteOff events and transparently controls what happens if some notes overlap.
 * You don't need to add notes and events in chronological order: MidLib **sorts events for you**.
-* Most of the magic numbers are hidden and replaced with **user-friendly names**. You don't need to know the controller index for a particular control change, or the program change index for a particular instrument: you will refer to them in your code with words like Accordion, Pan, or ChannelVolume.
+* Most of the magic numbers are hidden and replaced with **user-friendly names**. You don't need to know the controller index for a particular control change, or the program change index for a particular instrument: you will refer to them in your code with words like `Accordion`, `Pan`, or `ChannelVolume`.
 * The tricky stuff like chunks, variable-length sizes, running status, 14-bit and 28-bit integers, etc. are **completely hidden** in the library's subsoil and handled without any action on your part.
 
 ## Which standard MIDI features are not supported by the MidLib library?

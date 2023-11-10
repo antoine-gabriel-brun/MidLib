@@ -1,6 +1,4 @@
-# MidLib
-
-**C++ library for easy MIDI sample manipulation**
+# MidLib: C++ library for easy MIDI sample generation
 
 *The MidLib library allows users to generate MIDI files using C++ programs. It supports MIDI notes, multi-track samples, channels, pitch bends, control changes, instruments, aftertouch, tempo, time signature, custom events, as well as many tool to manipulate and transform musical samples as complex as you like.*
 

@@ -22,10 +22,12 @@ The main purpose of the MidLib library is to make creating MIDI files **as easy 
 
 ## Which standard MIDI features are not supported by the MidLib library?
 
+Despite the attempt to make MidLib as complete as possible, some features of the MIDI format are not supported by the library:
+
 * MidLib can only **write** MIDI files. It is not designed to *open* existing MIDI files, *play* MIDI samples as audio, or handle real-time MIDI streams.
 * The only available output MIDI file format is **format 1** (multitrack MIDI file).
 * The only time mode is **beat-based**. SMPTE time is not supported.
-* Some MIDI events of lesser interest such as cue points, lyrics, etc. are not natively supported. Using them requires **extending** the library by deriving the base event class.
+* Some MIDI events of lesser interest such as cue points, lyrics, etc. are not natively supported. Using them requires **extending** the library by deriving the Event base class.
 
 ## How do I get started?
 

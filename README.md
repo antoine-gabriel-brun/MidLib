@@ -59,7 +59,7 @@ The two libraries have advantages that complement each other:
 
 * Unlike ScoreGen, MidLib allows the generation of musical content that is not rhythm-dependent: durations are not additions of atomic rhythmic figures, but are **completely free**.
 
-* However, using MidLib instead of ScoreGen also brings some limitations, since the MIDI format doesn't provide any support for some of the elements found on scores, such as slurs, articulations, textual dynamics, etc. ScoreGen supports all of these notations.
+* However, using MidLib instead of ScoreGen also brings some limitations, since the MIDI format doesn't provide any support for some of the elements found on scores, such as slurs, articulations, textual dynamics, etc. ScoreGen supports **all of these notations**.
 
 ## References to MIDI file specifications
 

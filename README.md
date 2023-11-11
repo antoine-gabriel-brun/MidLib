@@ -49,11 +49,15 @@ This is how you generate a MIDI file using MidLib.
 
 Now, run and read the files in the `Mid/tutorials` folder to discover the other features available.
 
-## Who wrote MidLib and how?
+## Who wrote MidLib and why?
 
 This library was written by French composer [Antoine Gabriel Brun](http://antoinegabrielbrun.com/) for his personal use.
 
-The references about MIDI file specifications used when writing the MidLib library are:
+It comes after [ScoreGen](https://github.com/antoine-gabriel-brun/ScoreGen/), another library he wrote earlier, which allows to generate scores with C++ programs. Unlike ScoreGen, MidLib allows the generation of musical content that is not rhythm-dependent: durations are not additions of atomic rhythmic figures, but are completely free. However, using MidLib instead of ScoreGen also brings some limitations, since the MIDI format doesn't provide any support for some of the elements found on scores, such as slurs, articulations, textual dynamics, etc.
+
+## References to MIDI file specifications
+
+The references used when writing the MidLib library are:
 
 * <http://www.music.mcgill.ca/~ich/classes/mumt306/StandardMIDIfileformat.html>
 * <http://www.somascape.org/midi/tech/mfile.html>

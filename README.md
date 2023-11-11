@@ -53,7 +53,13 @@ Now, run and read the files in the `Mid/tutorials` folder to discover the other 
 
 This library was written by French composer [Antoine Gabriel Brun](http://antoinegabrielbrun.com/) for his personal use.
 
-It comes after [ScoreGen](https://github.com/antoine-gabriel-brun/ScoreGen/), another library he wrote earlier, which allows to generate scores with C++ programs. Unlike ScoreGen, MidLib allows the generation of musical content that is not rhythm-dependent: durations are not additions of atomic rhythmic figures, but are completely free. However, using MidLib instead of ScoreGen also brings some limitations, since the MIDI format doesn't provide any support for some of the elements found on scores, such as slurs, articulations, textual dynamics, etc.
+It comes after [ScoreGen](https://github.com/antoine-gabriel-brun/ScoreGen/), another library he wrote earlier, which allows to generate **musical scores** with C++ programs.
+
+The two libraries have advantages that complement each other:
+
+* Unlike ScoreGen, MidLib allows the generation of musical content that is not rhythm-dependent: durations are not additions of atomic rhythmic figures, but are **completely free**.
+
+* However, using MidLib instead of ScoreGen also brings some limitations, since the MIDI format doesn't provide any support for some of the elements found on scores, such as slurs, articulations, textual dynamics, etc. ScoreGen supports all of these notations.
 
 ## References to MIDI file specifications
 

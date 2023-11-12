@@ -65,6 +65,8 @@ The two libraries have advantages that complement each other:
 
 * However, using MidLib instead of ScoreGen also brings some limitations, since the MIDI format doesn't provide any support for some of the elements found on scores, such as slurs, articulations, textual dynamics, etc. ScoreGen supports **all of these notations**.
 
+In both cases, the goal is to provide composers with a programming interface to realize their ideas for algorithmic composition.
+
 ## References to MIDI file specifications
 
 The references used when writing the MidLib library are:

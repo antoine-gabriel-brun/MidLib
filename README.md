@@ -67,6 +67,8 @@ The two libraries have advantages that complement each other:
 
 In both cases, the goal is to provide composers with a programming interface to realize their ideas for [algorithmic composition](https://en.wikipedia.org/wiki/Algorithmic_composition).
 
+In both cases, the goal is to provide composers with a programming interface to realize their ideas for <a href="https://en.wikipedia.org/wiki/Algorithmic_composition" target="_blank">algorithmic composition</a>.
+
 ## References to MIDI file specifications
 
 The references used when writing the MidLib library are:

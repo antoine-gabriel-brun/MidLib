@@ -2,6 +2,8 @@
 
 The MidLib library allows users to **generate MIDI files** using C++ programs. It supports MIDI notes, multi-track samples, channels, pitch bends, control changes, instruments, aftertouch, tempo, time signature, custom events, as well as many tools to **create and transform musical samples** as complex as you like.
 
+![MidLib viewed within a DAW](http://antoinegabrielbrun.com/wp-content/uploads/2023/11/MidLib-rational.png)
+
 ## How does MidLib work?
 
 MidLib is a **C++ library**. Once included in a C++ project, it allows you to create musical objects and export them to **MIDI files**.
@@ -71,3 +73,5 @@ The references used when writing the MidLib library are:
 * <http://www.somascape.org/midi/tech/mfile.html>
 
 **Good luck with MidLib, put it to good use!**
+
+![MidLib, artist view](http://antoinegabrielbrun.com/wp-content/uploads/2023/11/MidLib-glowing.jpg)
